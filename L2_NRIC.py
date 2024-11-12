@@ -1,4 +1,4 @@
-NRIC = input("Enter your IC number in format YYMMDD-SS-NNNN ")
+NRIC = input("Enter your IC number in format YYMMDD-SS-NNNN : ")
 a,b,c = NRIC.split("-")
 
 nric= int(a)
@@ -45,3 +45,7 @@ else:
 
 print(day+ordinal, month, century+year)
 
+if int(c[-1])%2 == 0:
+    print("Female")
+else:
+    print("Male")
