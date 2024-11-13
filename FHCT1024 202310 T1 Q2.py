@@ -1,7 +1,7 @@
 import math
 
-d = int(input("Enter distance (KM)    >> "))
-v = int(input("Enter velocity (KM/hr) >> "))
+d = float(input("Enter distance (KM)    >> "))
+v = float(input("Enter velocity (KM/hr) >> "))
 
 t = (d * 1.02 ** 2) / (math.cbrt(1.005) * v) + 0.125 / (d * 0.01)
 t = t * 60
