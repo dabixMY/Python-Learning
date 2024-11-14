@@ -11,7 +11,7 @@ dd, mm, yyyy = sesDate.split("-")
 day = int(dd)
 month = int(mm)
 year = int(yyyy)
-
+'''
 # Determining the week number based on the session date
 if 18 <= day <= 24 and month == 1:
     week = 1
@@ -41,7 +41,18 @@ elif 15 <= day <= 21 and month == 4:
     week = 13
 else:
     week = 14
+'''
 
+if month == 1:
+    DDC = day - 18
+elif month == 2:
+    DDC = 13 + day
+elif month == 3:
+    DDC = 41 + day
+elif month == 4:
+    DDC = 72 + day
+
+week = DDC // 7 + 1
 # Calculating Session Duration
 hhS, mmS = map(int, sesStime.split(":"))
 hhE, mmE = map(int, sesEtime.split(":"))
