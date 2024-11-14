@@ -10,13 +10,13 @@ print(f"Total time in minutes   : {t:.5f}")
 if t >= 1440:
     days = t // 1440
     hours = (t / 1440 - days) * 24
-    mins = (hours - int(hours)) * 60
+    mins = (hours - hours//1) * 60
 else:
     days = 0
     hours = t // 60
     mins = (t / 60 - hours) * 60
 
-print(f"Time taken to travel    : {days:.0f} day(s) {hours:.0f} hours {mins:.0f} mins")
+print(f"Time taken to travel    : {days:02.0f} day(s) {hours:02.0f} hours {mins:02.0f} mins")
 print()
 
 petrol = input("Petrol Used            >> ").upper()

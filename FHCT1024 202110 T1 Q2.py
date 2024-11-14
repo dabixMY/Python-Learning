@@ -7,7 +7,7 @@ time = distance / velocity
 hours = time // 24
 mins = (time % 24 - hours) * 60
 
-print(f"Time taken to travel    : {time // 24:.0f} day {hours:.0f} hour {mins:.0f} minutes ")
+print(f"Time taken to travel    : {time // 24:02.0f} day {hours:02.0f} hour {mins:02.0f} minutes ")
 
 timeA = (hhStart + (mmStart / 60)) + time
 
@@ -25,4 +25,4 @@ else:
 mmA = (timeA - timeA // 1) * 60
 
 print()
-print(f"Arrival time            : {hhA:.0f}:{mmA:.0f} {ampm}")
+print(f"Arrival time            : {hhA:02.0f}:{mmA:02.0f} {ampm}")
