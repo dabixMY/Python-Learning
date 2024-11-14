@@ -35,7 +35,7 @@ elif carCC == 2000:
 totCost = (d / kmph) * RMperL
 costAdj = round(totCost * 20) / 20
 
-print(f"Total cost              :RM    {costAdj:.2f}")
+print(f"Total cost              :RM    {totCost:.2f}")
 
 if costAdj < totCost:
     print(f"Adjustment              :RM     -{totCost - costAdj:.2f}")
