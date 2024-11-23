@@ -1,6 +1,6 @@
 
 #step1
-import setting as SET #self-defined module
+import Global_Variable as SET #self-defined module
 import os             #standard io module
 
 #syntax -> def functionName (arguments):

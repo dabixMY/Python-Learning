@@ -1,4 +1,4 @@
-import setting as SET
+import Global_Variable as SET
 import os
 
 def prac2Q1():
