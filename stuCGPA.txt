@@ -1,0 +1,6 @@
+
+Course code: FHCT1012
+Grade: A+
+Course code: FHCT1024
+Grade: A-
+CGPA: 3.778
