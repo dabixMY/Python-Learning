@@ -1,0 +1,16 @@
+Name : 
+ID   : 
+
+
+1. What is the capital of Pahang?
+A. Ipoh
+B. Kuantan
+C. Kuala Terengganu
+D. Shah Alam
+
+2. What is the capital of Perlis?
+A. Seremban
+B. Kuala Terengganu
+C. Johor Bahru
+D. Kangar
+

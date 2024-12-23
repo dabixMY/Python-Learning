@@ -1,0 +1,16 @@
+Name : 
+ID   : 
+
+
+1. What is the capital of Perak?
+A. Shah Alam
+B. Kuala Terengganu
+C. Georgetown
+D. Ipoh
+
+2. What is the capital of Sarawak?
+A. Ipoh
+B. Georgetown
+C. Kuching
+D. Johor Bahru
+
