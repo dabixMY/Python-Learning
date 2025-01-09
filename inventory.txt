@@ -1,0 +1,4 @@
+rice|20.00|5
+sugar|3.50|30
+salt|0.50|
+corn flour|2.50|30

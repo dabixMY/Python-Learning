@@ -1,4 +1,4 @@
-with open("libtrans.txt", "r") as file:
+with open('libtrans.txt', 'r') as file:
     lines = file.readlines()
 rec = [line.strip("\n").split("|") for line in lines]
 date = input("Date (YYYYMMDD)    >> ")
@@ -39,7 +39,7 @@ while bookid != 'Q':
     duedate = f"{dueyear}{duemonth:02}{dueday:02}"
     print(f"Due date            : {duedate}")
 
-    with open("libtrans.txt", "a") as file:
+    with open('libtrans.txt', 'a') as file:
         file.write("|".join([id, bookid, date, duedate]) + "\n")
 
     bookborrow += 1
