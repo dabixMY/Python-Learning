@@ -23,15 +23,16 @@ while cont == 'y':
         for record in rec:
             print(f'{record[0]:<15}{record[1]:^15}{record[2]:^15}')
 
+        print()
         print('Item(s) need to be restocked: ')
 
-        num = sum(1 for record in rec if int(record[2]) < 10)
         count = 1
         for record in rec:
             if int(record[2]) < 10:
                 print(f"{count}. {record[0]} left {record[2]} unit(s).")
                 count += 1
 
+    print()
     cont = input("Press 'y' to continue or 'n' to quit: ")
 
 
